@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+html{
+  -ms-scroll-chaining: smooth;
+}
+
+@media (prefers-reduced-motion: reduce){
+  html{
+    scroll-behavior: auto;
+  }
+}
+
